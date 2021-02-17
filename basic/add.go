@@ -1,4 +1,4 @@
-package code
+package basic
 
 // Add returns sum of two integers
 //func Add(x int, y int) int
