@@ -5,6 +5,7 @@ import (
 	"math/rand"
 
 	L "./basic"
+	FC "./flow-control"
 )
 
 func main() {
@@ -20,4 +21,10 @@ func main() {
 	L.ShortVariableDeclaration()
 	L.ShowBasicTypes()
 	L.ShowTypeConversion()
+	FC.ShowForLoop()
+	FC.ShowIf()
+	FC.ShowIfElse()
+	FC.ShowMySqrt()
+	FC.ShowSwitch()
+	FC.ShowDefer()
 }
