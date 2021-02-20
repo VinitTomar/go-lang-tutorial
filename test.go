@@ -6,6 +6,7 @@ import (
 
 	L "./basic"
 	FC "./flow-control"
+	MT "./more-types"
 )
 
 func main() {
@@ -27,4 +28,10 @@ func main() {
 	FC.ShowMySqrt()
 	FC.ShowSwitch()
 	FC.ShowDefer()
+	MT.ShowPointer()
+	MT.ShowStruct()
+	MT.ShowArray()
+	MT.ShowSlice()
+	MT.ShowMap()
+	MT.ShowFunctionValues()
 }
