@@ -6,6 +6,7 @@ import (
 
 	L "./basic"
 	FC "./flow-control"
+	MI "./methods-and-interfaces"
 	MT "./more-types"
 )
 
@@ -17,21 +18,30 @@ func main() {
 	fmt.Println("Swap ", a, b)
 	x, y := L.Split(44)
 	fmt.Println("Split 44 into ", x, y)
+
 	L.Show()
 	L.ShowVariablesWithInitializer()
 	L.ShortVariableDeclaration()
 	L.ShowBasicTypes()
 	L.ShowTypeConversion()
+
 	FC.ShowForLoop()
 	FC.ShowIf()
 	FC.ShowIfElse()
 	FC.ShowMySqrt()
 	FC.ShowSwitch()
 	FC.ShowDefer()
+
 	MT.ShowPointer()
 	MT.ShowStruct()
 	MT.ShowArray()
 	MT.ShowSlice()
 	MT.ShowMap()
 	MT.ShowFunctionValues()
+
+	MI.ShowMethods()
+	MI.ShowInterface()
+	MI.ShowStringer()
+	MI.ShowError()
+	MI.ShowReader()
 }
