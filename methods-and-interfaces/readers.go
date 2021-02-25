@@ -1,6 +1,7 @@
 package methodsandinterfaces
 
 import (
+	"fmt"
 	"io"
 	"os"
 	"strings"
@@ -34,4 +35,5 @@ func ShowReader() {
 	s := strings.NewReader("Lbh penpxrq gur pbqr!")
 	r := rot13Reader{s}
 	io.Copy(os.Stdout, &r)
+	fmt.Println()
 }

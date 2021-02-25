@@ -5,6 +5,7 @@ import (
 	"math/rand"
 
 	L "./basic"
+	C "./concurrency"
 	FC "./flow-control"
 	MI "./methods-and-interfaces"
 	MT "./more-types"
@@ -44,4 +45,9 @@ func main() {
 	MI.ShowStringer()
 	MI.ShowError()
 	MI.ShowReader()
+
+	C.ShowGoRoutine()
+	C.ShowChannel()
+	C.ShowSelection()
+	C.ShowEqBinTree()
 }
